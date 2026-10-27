@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#10131b">
+<meta name="description" content="Mihir Pathak — Unity developer and 3D artist. Gameplay systems, rendering experiments, stylized character art and environments.">
+<title>Mihir Pathak — Unity Developer & 3D Artist</title><link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="topbar"><a class="logo" href="#home">MP<span>.</span></a><nav><a href="#games">Unity</a><a href="#art">3D Art</a><a href="#about">About</a><a class="contact" href="mailto:mihirpathak2901@gmail.com">Contact</a></nav></header>
+<main id="home">
+<section class="hero wrap">
+<div class="eyebrow"><i></i> UNITY DEVELOPER · GAMEPLAY · 3D ART</div>
+<h1>I build game systems<br><span>and the worlds around them.</span></h1>
+<p class="lead">I'm Mihir, a Unity developer and 3D artist interested in gameplay programming, physics-driven interactions, rendering experiments, and stylized game assets.</p>
+<div class="actions"><a class="btn primary" href="#games">Explore my work ↘</a><a class="btn" href="https://github.com/MihirP-In" target="_blank" rel="noreferrer">GitHub profile ↗</a></div>
+<div class="quickfacts"><div><small>FOCUS</small><b>Unity · C#</b></div><div><small>GAME SYSTEMS</small><b>Physics · Procedural generation</b></div><div><small>ART TOOLS</small><b>Blender · Illustrator</b></div></div>
+</section>
+
+<section class="wrap section" id="games">
+<div class="sectionhead"><div><div class="eyebrow">SELECTED DEVELOPMENT WORK</div><h2>Unity projects<span>.</span></h2></div><p>Focused prototypes exploring game mechanics, rendering, and real-time systems.</p></div>
+<article class="project featured">
+<div class="media"><video controls playsinline preload="metadata" poster="assets/images/ball-platformer-hero.png"><source src="assets/video/ball-platformer-gameplay.mp4" type="video/mp4"></video><div class="caption">01 / GAMEPLAY SYSTEMS <span>UNITY · C#</span></div></div>
+<div class="details"><div class="kicker">FEATURED · ANDROID</div><h3>Procedural Ball Platformer</h3><p>A landscape side-scroller built around a physics-driven ball, touch input, trajectory prediction, and a terrain path that extends as the player advances.</p>
+<div class="tags"><span>Unity Physics</span><span>Touch Input</span><span>Procedural Terrain</span><span>Impact Deformation</span></div>
+<h4>Implementation highlights</h4><ul><li>Spawns and removes terrain segments as the camera advances, keeping active terrain bounded.</li><li>Uses a controlled range of ground-height variation and a predefined visual sequence for time-of-day transitions.</li><li>Includes jump trajectory prediction, collision-responsive squash-and-stretch, score progression, and a game-over/restart loop.</li></ul>
+<p class="note"><b>Technical scope:</b> the ball uses Unity physics for movement and collisions; squash-and-stretch is an impact-responsive visual effect, not a custom soft-body solver.</p>
+<div class="links"><a href="https://github.com/MihirP-In/Procedural-Ball-Platformer" target="_blank" rel="noreferrer">Repository & README ↗</a><a href="https://github.com/MihirP-In/Procedural-Ball-Platformer/releases/tag/v1.0.0" target="_blank" rel="noreferrer">Download Android build ↗</a></div>
+</div></article>
+<div class="demo-grid">
+<article class="demo"><img src="assets/images/vertical-squash.png" alt="Ball showing vertical squash on impact"><div><div class="kicker">MECHANIC DEMO</div><h3>Vertical impact squash</h3><p>Visual deformation during collision with a vertical obstacle.</p><a href="https://www.youtube.com/watch?v=1Xx2mnWd6sI" target="_blank" rel="noreferrer">Watch clip ↗</a></div></article>
+<article class="demo"><img src="assets/images/horizontal-squash.png" alt="Ball showing horizontal squash on impact"><div><div class="kicker">MECHANIC DEMO</div><h3>Horizontal impact squash</h3><p>A different deformation response for a horizontal collision.</p><a href="https://www.youtube.com/watch?v=H1KSeOUtNak" target="_blank" rel="noreferrer">Watch clip ↗</a></div></article>
+</div>
+<article class="project secondary">
+<div class="media"><video controls playsinline preload="metadata"><source src="assets/video/magiccube-gameplay.mp4" type="video/mp4"></video></div>
+<div class="cube-art"><div class="cube"><div>01<br><b>STENCIL</b></div><div>02<br><b>PHYSICS</b></div><div>03<br><b>WORLDS</b></div></div><div class="caption">02 / RENDERING EXPERIMENT <span>UNITY · SHADERS</span></div></div>
+<div class="details"><div class="kicker">TECHNICAL PROTOTYPE</div><h3>Magic Cube</h3><p>An independent Unity prototype exploring a rotating cube whose faces reveal separate visual worlds, with a physics-enabled object interacting inside each face.</p><div class="tags"><span>C#</span><span>Stencil Buffer</span><span>Shaders</span><span>Unity Physics</span></div><ul><li>Stencil-buffer masking to control which world is visible through each face.</li><li>Physics-based interaction inside the face environments.</li><li>Built as a focused prototype over approximately three weeks.</li></ul><div class="links"><a href="https://github.com/MihirP-In/Magic-Cube" target="_blank" rel="noreferrer">Source & README ↗</a><a href="https://github.com/MihirP-In/Magic-Cube/releases/latest" target="_blank" rel="noreferrer">Download APK ↗</a></div></div>
+</article>
+</section>
+
+<section class="art-section" id="art"><div class="wrap section">
+<div class="sectionhead"><div><div class="eyebrow">SELECTED VISUAL WORK</div><h2>3D art & production<span>.</span></h2></div><p>Production-oriented game art alongside independent environment and creature studies.</p></div>
+<article class="art-feature">
+<div class="art-image"><img src="assets/images/character-heads-1.png" alt="Overview sheet of stylized character heads"></div>
+<div class="art-copy"><div class="kicker">PRODUCTION GAME ART</div><h3>Stylized Character Art</h3><p>Created stylized character-head assets for mobile games tested with Moonee and CrazyLabs. The collection explores distinct silhouettes, helmet and mask designs, material separation, and readable color blocking.</p><ul><li>Approximately 30 character heads produced.</li><li>Art production and asset creation across three casual mobile game projects.</li><li>Selected overview; individual models can be shown in a focused breakdown if needed.</li></ul><p class="note">Project attribution is limited to the art work described here; gameplay programming and other team contributions are not claimed.</p></div>
+</article>
+<div class="image-pair"><figure><img src="assets/images/character-heads-2.png" alt="Second sheet of stylized character-head assets"><figcaption>Character collection — additional designs</figcaption></figure><figure><img src="assets/images/bookland-detail.png" alt="Detail view of Bookland environment"><figcaption>Bookland — environment detail</figcaption></figure></div>
+<div class="art-cards">
+<article class="art-card"><img src="assets/images/bookland.png" alt="Bookland stylized room diorama"><div class="art-copy"><div class="kicker">BLENDER · ENVIRONMENT ART</div><h3>Bookland Diorama</h3><p>A personal environment project focused on composition, prop modeling, materials, lighting, and set dressing.</p></div></article>
+<article class="art-card"><img src="assets/images/dragon-bust.png" alt="Dragon creature bust sculpt"><div class="art-copy"><div class="kicker">BLENDER · SCULPTING</div><h3>Dragon Bust</h3><p>A creature sculpt study exploring organic forms, surface detail, and material treatment. Presented as a sculpting project, not as a completed cinematic.</p></div></article>
+</div>
+</div></section>
+
+<section class="wrap about section" id="about"><div><div class="eyebrow">ABOUT</div><h2>Curious about how<br><span>things work.</span></h2></div><div><p>I enjoy breaking down interactive systems and building focused prototypes to test ideas. My experience spans Unity development and 3D asset creation, so I consider both the technical implementation and the player-facing result.</p><p>I'm currently pursuing my degree through IGNOU and looking for opportunities to contribute to a game or real-time 3D team while continuing to deepen my engineering skills.</p><div class="links"><a href="https://github.com/MihirP-In" target="_blank" rel="noreferrer">GitHub ↗</a><a href="mailto:mihirpathak2901@gmail.com">Email ↗</a></div></div></section>
+<section class="contact-band"><div class="wrap contact-inner"><div><div class="eyebrow">OPEN TO OPPORTUNITIES</div><h2>Let's build something.</h2></div><a class="btn primary" href="mailto:mihirpathak2901@gmail.com">mihirpathak2901@gmail.com ↗</a></div></section>
+</main><footer class="wrap footer"><span>© 2026 Mihir Pathak</span><span>Unity · C# · 3D Art</span><a href="#home">Back to top ↑</a></footer>
+</body></html>
